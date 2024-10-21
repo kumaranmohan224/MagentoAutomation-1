@@ -1,0 +1,39 @@
+Tools: 
+
+Framework: page object model
+
+Project :
+
+
+
+Tools are using in Automation:
+
+Selenium webdriver - JAR file , existing in Maven dependencies
+Chromedriver.exe - exists in Lib/drivers folder
+Maven
+Testng - Maven dependencies Logging and Reporting: 
+
+Configurations :  Config folder, Config.properties
+
+holds the information about input file, results, browserstack login and other 
+
+JRE system library : 
+
+Referenced Libraries: holding MySQL connector, POI file to access the excel for the input 
+
+Input :  passing the test data from excel as input. see config.properties
+
+DB connection file: DBTest_Prod.java using directly in test file. 
+
+src/test/java : test file
+src/main/java - controller file(elemen calling)/data file(input file)/ model file (XPATH)
+src/main/java- 
+
+
+
+
+
+POM_local.xml :  Maven build file 
+
+It mentioned the location of test cases that wants to execute. 
+
